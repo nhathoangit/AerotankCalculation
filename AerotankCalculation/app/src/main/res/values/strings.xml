@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AerotankCalculation</string>
+
+    <string name="title_home">Aerotank</string>
+    <string name="hieu_qua_xu_ly">Hiệu quả xử lý</string>
+    <string name="kich_thuoc_be">Kích thước bể</string>
+    <string name="bun_hoat_tinh">Bùn hoạt tính</string>
+    <string name="kiem_tra_thong_so">Kiểm tra thông số</string>
+    <string name="thiet_bi_phan_phoi_khi">Thiết bị phân phối khí</string>
+    <string name="bod">BOD = </string>
+    <string name="dv_bod">mg/l</string>
+    <string name="cod">COD = </string>
+    <string name="bod_ra">BOD ra = </string>
+    <string name="ss_ra">SS ra = </string>
+    <string name="can_bay_hoi">Cặn  bay hơi = 65%, Độ tro = 0.2</string>
+    <string name="ket_qua">Kết quả</string>
+
+    <string name="kq_bod">Lượng BOD hòa tan ra khỏi bể lắng = </string>
+    <string name="kq_hieu_qua_bod">Hiệu quả xử lý tính theo BOD hòa tan = </string>
+</resources>
