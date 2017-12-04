@@ -20,4 +20,6 @@
     <string name="kq_the_tich_be">Thể tích bể = </string>
     <string name="kq_chieu_rong_be">Chiều rộng bể = </string>
     <string name="kq_thoi_gian_luu_nuoc">Thời gian lưu nước = </string>
+    <string name="kq_ty_so_fm">Tỷ số F/M = </string>
+    <string name="kq_tai_trong_the_tich">Tải trọng thể tích = </string>
 </resources>

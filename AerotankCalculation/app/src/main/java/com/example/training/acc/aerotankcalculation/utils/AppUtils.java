@@ -25,4 +25,11 @@ public class AppUtils {
         return ((double) Math.round((theTichBe / qTB) * 100) / 100) * 24;
     }
 
+    public static double tySoFM(double bodVao, double t, double x) {
+        return ((double) Math.round(bodVao / (t * x) * 100) / 100);
+    }
+
+    public static double taiTrongTheTich(double bodVao, double qTB, double v) {
+        return ((double) Math.round(((bodVao * qTB) / (v * 1000)) * 100) / 100);
+    }
 }
