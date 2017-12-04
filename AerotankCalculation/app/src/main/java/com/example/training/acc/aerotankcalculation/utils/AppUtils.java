@@ -13,4 +13,16 @@ public class AppUtils {
         return ((bod - luongBODHoaTan) / bod) * 100;
     }
 
+    public static double theTichBe(double qTB, double y, double tb, double bodVao, double bodRa, double x, double kd) {
+        return Math.round((qTB * y * tb * (bodVao - bodRa)) / (x * (1 + kd * tb)));
+    }
+
+    public static double chieuRongBe(double h, double l, double theTichBe) {
+        return Math.round(theTichBe / (h * l));
+    }
+
+    public static double thoiGianLuuNuoc(double theTichBe, double qTB) {
+        return ((double) Math.round((theTichBe / qTB) * 100) / 100) * 24;
+    }
+
 }

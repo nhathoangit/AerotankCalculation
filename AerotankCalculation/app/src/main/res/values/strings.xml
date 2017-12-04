@@ -17,4 +17,7 @@
 
     <string name="kq_bod">Lượng BOD hòa tan ra khỏi bể lắng = </string>
     <string name="kq_hieu_qua_bod">Hiệu quả xử lý tính theo BOD hòa tan = </string>
+    <string name="kq_the_tich_be">Thể tích bể = </string>
+    <string name="kq_chieu_rong_be">Chiều rộng bể = </string>
+    <string name="kq_thoi_gian_luu_nuoc">Thời gian lưu nước = </string>
 </resources>
