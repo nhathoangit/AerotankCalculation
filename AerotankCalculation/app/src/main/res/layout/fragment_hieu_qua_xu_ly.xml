@@ -25,6 +25,7 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/fragHieuQua_etBOD"
             android:layout_width="@dimen/_140dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_8dp"
@@ -61,6 +62,7 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/fragHieuQua_etCOD"
             android:layout_width="@dimen/_140dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_8dp"
@@ -97,6 +99,7 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/fragHieuQua_etBODRa"
             android:layout_width="@dimen/_140dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_8dp"
@@ -133,6 +136,7 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/fragHieuQua_etSSRa"
             android:layout_width="@dimen/_140dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_8dp"
@@ -172,6 +176,7 @@
         android:background="@color/black_38" />
 
     <TextView
+        android:id="@+id/fragHieuQua_tvKetQua"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
@@ -186,6 +191,7 @@
         android:textSize="24sp" />
 
     <TextView
+        android:id="@+id/fragHieuQua_tvLuongBODHoaTan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_16dp"
@@ -198,6 +204,7 @@
         tools:text="@string/kq_bod" />
 
     <TextView
+        android:id="@+id/fragHieuQua_tvHieuQuaXuLy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/_8dp"
