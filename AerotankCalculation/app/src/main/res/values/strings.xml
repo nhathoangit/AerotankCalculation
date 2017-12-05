@@ -14,6 +14,7 @@
     <string name="ss_ra">SS ra = </string>
     <string name="can_bay_hoi">Cặn  bay hơi = 65%, Độ tro = 0.2</string>
     <string name="ket_qua">Kết quả</string>
+    <string name="cong_suat_may_thoi_khi">Công suất máy thổi khí = 80% \nvận tốc khí trong ống = 15 m/s</string>
 
     <string name="kq_bod">Lượng BOD hòa tan ra khỏi bể lắng = </string>
     <string name="kq_hieu_qua_bod">Hiệu quả xử lý tính theo BOD hòa tan = </string>
@@ -26,4 +27,10 @@
     <string name="kq_luu_luong_xa_bun">Lưu lượng xả bùn = </string>
     <string name="kq_khoi_luong_xa_ra">Khối lượng bùn xả ra hằng ngày = </string>
     <string name="kq_luu_luong_tuan_hoan">Lưu lượng tuần hoàn = </string>
+    <string name="kq_luong_kk">Lượng không khí cần cung cấp = </string>
+    <string name="kq_ap_luc_can_thiet">Áp lực cần thiết của máy thổi khí = </string>
+    <string name="kq_cong_suat_may_thoi_khi">Công suất máy thổi khí = </string>
+    <string name="kq_so_dia_phan_phoi">Số đĩa phân phối khí = </string>
+    <string name="kq_duong_kinh">Đường kính ống dẫn khí chính = </string>
+    <string name="kq_duong_kinh_nhanh">Đường kính ống dẫn khí nhánh = </string>
 </resources>
