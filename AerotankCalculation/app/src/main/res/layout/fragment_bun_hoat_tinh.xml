@@ -1,8 +1,478 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
 
-    <include layout="@layout/action_bar"/>
+    <include layout="@layout/action_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16dp"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="Lưu lượng trung bình :"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etQtb"
+                    android:layout_width="@dimen/_110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="m³/ngày"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="@dimen/_160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="H.số sd chất nền max: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etY"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mg/mg"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="Thời gian lưu bùn: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etTB"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ngày"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="@dimen/_70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="BOD vào: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etBODVao"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dv_bod"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="@dimen/_70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="BOD ra: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etBODRa"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dv_bod"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="Nồng độ BHT: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etX"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dv_bod"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="H.số p.hủy nội bào: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etKD"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1/ngày"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="Thể tích bể: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etTheTichBe"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="m³"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="SS ra: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etSSRa"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mg/l"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:text="Nồng độ bùn tuần hoàn: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/fragBHT_etXT"
+                    android:layout_width="@dimen/_140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:layout_marginStart="@dimen/_8dp"
+                    android:background="@drawable/shape_radius_black_38"
+                    android:gravity="end"
+                    android:inputType="text"
+                    android:padding="@dimen/_8dp"
+                    android:textSize="14sp"
+                    tools:text="100" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mg/l"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingEnd="@dimen/_16dp"
+                android:paddingStart="@dimen/_16dp"
+                android:paddingTop="@dimen/_8dp"
+                android:text="@string/can_bay_hoi"
+                android:textColor="@color/red"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1dp"
+                android:layout_marginBottom="@dimen/_16dp"
+                android:layout_marginTop="@dimen/_16dp"
+                android:background="@color/black_38" />
+
+            <TextView
+                android:id="@+id/fragBHT_tvKetQua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:layout_marginStart="@dimen/_16dp"
+                android:background="@drawable/shape_red_radius_light_yellow"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingTop="@dimen/_8dp"
+                android:text="@string/ket_qua"
+                android:textColor="@color/red"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/fragBHT_tvLuongBun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16dp"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingEnd="@dimen/_16dp"
+                android:paddingStart="@dimen/_16dp"
+                android:paddingTop="@dimen/_8dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:text="@string/kq_luong_bun" />
+
+            <TextView
+                android:id="@+id/fragBHT_tvLuuLuongXaBun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingEnd="@dimen/_16dp"
+                android:paddingStart="@dimen/_16dp"
+                android:paddingTop="@dimen/_8dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:text="@string/kq_luu_luong_xa_bun" />
+
+            <TextView
+                android:id="@+id/fragBHT_tvKLBunXaRa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingEnd="@dimen/_16dp"
+                android:paddingStart="@dimen/_16dp"
+                android:paddingTop="@dimen/_8dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:text="@string/kq_khoi_luong_xa_ra" />
+
+            <TextView
+                android:id="@+id/fragBHT_tvLuuLuongTuanHoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_8dp"
+                android:paddingEnd="@dimen/_16dp"
+                android:paddingStart="@dimen/_16dp"
+                android:paddingTop="@dimen/_8dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                tools:text="@string/kq_luu_luong_tuan_hoan" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

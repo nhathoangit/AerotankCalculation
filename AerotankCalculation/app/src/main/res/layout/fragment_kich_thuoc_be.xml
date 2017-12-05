@@ -87,7 +87,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/dv_bod"
+                    android:text="mg/mg"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -272,7 +272,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="mg/mg"
+                    android:text="1/ngày"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
