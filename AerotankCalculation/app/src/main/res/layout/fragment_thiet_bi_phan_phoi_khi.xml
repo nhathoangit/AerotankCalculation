@@ -27,7 +27,7 @@
                 android:paddingTop="@dimen/_8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/_160dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16dp"
                     android:text="Lưu lượng trung bình :"
@@ -36,7 +36,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etQtb"
-                    android:layout_width="@dimen/_110dp"
+                    android:layout_width="@dimen/_120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -65,7 +65,7 @@
                 android:paddingTop="@dimen/_8dp">
 
                 <TextView
-                    android:layout_width="@dimen/_70dp"
+                    android:layout_width="@dimen/_160dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16dp"
                     android:text="BOD vào: "
@@ -74,7 +74,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etBODVao"
-                    android:layout_width="@dimen/_140dp"
+                    android:layout_width="@dimen/_120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -102,7 +102,7 @@
                 android:paddingTop="@dimen/_8dp">
 
                 <TextView
-                    android:layout_width="@dimen/_70dp"
+                    android:layout_width="@dimen/_160dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16dp"
                     android:text="BOD ra: "
@@ -111,7 +111,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etBODRa"
-                    android:layout_width="@dimen/_140dp"
+                    android:layout_width="@dimen/_120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -139,7 +139,7 @@
                 android:paddingTop="@dimen/_8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/_160dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16dp"
                     android:text="Lượng bùn sinh ra: "
@@ -148,7 +148,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etA"
-                    android:layout_width="@dimen/_140dp"
+                    android:layout_width="@dimen/_120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -176,7 +176,7 @@
                 android:paddingTop="@dimen/_8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/_160dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16dp"
                     android:text="Chiều cao hữu ích: "
@@ -185,7 +185,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etH"
-                    android:layout_width="@dimen/_140dp"
+                    android:layout_width="@dimen/_120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -213,16 +213,16 @@
                 android:paddingTop="@dimen/_8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/_160dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16dp"
-                    android:text="Cường độ khí qua 1 đĩa: "
+                    android:text="Cg độ khí qua 1 đĩa: "
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
                 <EditText
                     android:id="@+id/fragPPK_etQDia"
-                    android:layout_width="@dimen/_140dp"
+                    android:layout_width="@dimen/_120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -250,7 +250,7 @@
                 android:paddingTop="@dimen/_8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/_160dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16dp"
                     android:text="Số nhánh: "
@@ -259,7 +259,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etN"
-                    android:layout_width="@dimen/_140dp"
+                    android:layout_width="@dimen/_120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
