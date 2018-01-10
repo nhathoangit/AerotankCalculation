@@ -36,7 +36,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etQtb"
-                    android:layout_width="@dimen/_120dp"
+                    android:layout_width="@dimen/_100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -74,7 +74,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etBODVao"
-                    android:layout_width="@dimen/_120dp"
+                    android:layout_width="@dimen/_100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -111,7 +111,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etBODRa"
-                    android:layout_width="@dimen/_120dp"
+                    android:layout_width="@dimen/_100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -148,7 +148,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etA"
-                    android:layout_width="@dimen/_120dp"
+                    android:layout_width="@dimen/_100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -185,7 +185,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etH"
-                    android:layout_width="@dimen/_120dp"
+                    android:layout_width="@dimen/_100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -222,7 +222,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etQDia"
-                    android:layout_width="@dimen/_120dp"
+                    android:layout_width="@dimen/_100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
@@ -259,7 +259,7 @@
 
                 <EditText
                     android:id="@+id/fragPPK_etN"
-                    android:layout_width="@dimen/_120dp"
+                    android:layout_width="@dimen/_100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8dp"
                     android:layout_marginStart="@dimen/_8dp"
