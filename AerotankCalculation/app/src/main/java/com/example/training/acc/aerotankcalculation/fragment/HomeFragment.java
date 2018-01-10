@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 
 import com.example.training.acc.aerotankcalculation.R;
 import com.example.training.acc.aerotankcalculation.base.BaseFragment;
+import com.example.training.acc.aerotankcalculation.utils.KeyboardUtils;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -26,6 +27,7 @@ public class HomeFragment extends BaseFragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         setActionBar(view, getString(R.string.title_home).toUpperCase());
         unbinder = ButterKnife.bind(this, view);
+        KeyboardUtils.setupUI(view,getActivity());
         return view;
     }
 

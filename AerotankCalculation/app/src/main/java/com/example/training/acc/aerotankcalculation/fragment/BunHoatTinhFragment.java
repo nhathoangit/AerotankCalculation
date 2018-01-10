@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.example.training.acc.aerotankcalculation.R;
 import com.example.training.acc.aerotankcalculation.base.BaseFragment;
 import com.example.training.acc.aerotankcalculation.utils.AppUtils;
+import com.example.training.acc.aerotankcalculation.utils.KeyboardUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -60,6 +61,7 @@ public class BunHoatTinhFragment extends BaseFragment {
         View view = inflater.inflate(R.layout.fragment_bun_hoat_tinh, container, false);
         setActionBarBack(view, getString(R.string.bun_hoat_tinh).toUpperCase());
         ButterKnife.bind(this, view);
+        KeyboardUtils.setupUI(view,getActivity());
         return view;
     }
 

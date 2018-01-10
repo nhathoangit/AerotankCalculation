@@ -42,6 +42,7 @@ public class HieuQuaXuLyFragment extends BaseFragment {
         setActionBarBack(view, getString(R.string.hieu_qua_xu_ly).toUpperCase());
         KeyboardUtils.setupUI(view, getActivity());
         ButterKnife.bind(this, view);
+        KeyboardUtils.setupUI(view,getActivity());
         return view;
     }
 

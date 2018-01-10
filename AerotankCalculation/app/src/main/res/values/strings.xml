@@ -33,4 +33,5 @@
     <string name="kq_so_dia_phan_phoi">Số đĩa phân phối khí = </string>
     <string name="kq_duong_kinh">Đường kính ống dẫn khí chính = </string>
     <string name="kq_duong_kinh_nhanh">Đường kính ống dẫn khí nhánh = </string>
+    <string name="khong_hop_ly">không hợp lý</string>
 </resources>
