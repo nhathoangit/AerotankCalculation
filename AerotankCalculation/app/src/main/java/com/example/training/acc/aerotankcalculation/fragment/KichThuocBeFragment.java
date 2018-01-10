@@ -58,7 +58,7 @@ public class KichThuocBeFragment extends BaseFragment {
         View view = inflater.inflate(R.layout.fragment_kich_thuoc_be, container, false);
         setActionBarBack(view, getString(R.string.kich_thuoc_be).toUpperCase());
         ButterKnife.bind(this, view);
-        KeyboardUtils.setupUI(view,getActivity());
+        KeyboardUtils.setupUI(view, getActivity());
         return view;
     }
 
@@ -76,9 +76,9 @@ public class KichThuocBeFragment extends BaseFragment {
         double l = Double.parseDouble(etL.getText().toString());
         mTheTichBe = AppUtils.theTichBe(qTB, y, tb, bodVao, bodRa, x, kd);
         mChieuRongBe = AppUtils.chieuRongBe(h, l, mTheTichBe);
-        mTimeLuuNuoc = AppUtils.thoiGianLuuNuoc(mTheTichBe,qTB);
+        mTimeLuuNuoc = AppUtils.thoiGianLuuNuoc(mTheTichBe, qTB);
         tvTheTichBe.setText(getText(R.string.kq_the_tich_be) + " " + String.valueOf(mTheTichBe) + " m³");
         tvChieuRongBe.setText(getText(R.string.kq_chieu_rong_be) + " " + String.valueOf(mChieuRongBe) + " m");
-        tvThoiGianLuuNuoc.setText(getText(R.string.kq_thoi_gian_luu_nuoc) + " " + String.valueOf(mTimeLuuNuoc) + " h");
+        tvThoiGianLuuNuoc.setText(getText(R.string.kq_thoi_gian_luu_nuoc) + " " + String.valueOf(mTimeLuuNuoc) + " h = " + String.valueOf(((double) Math.round((mTimeLuuNuoc / 24.0) * 100) / 100)) + " ngày");
     }
 }
